@@ -1,10 +1,13 @@
 # Codepath-Prework
 Text and Background customizer
 
-### App Walk-though
-`TODO://` Add the URL to your animated app walk-though `gif` in the image tag below. Make sure the gif actually renders and animates when viewing this README. (☝️ Remove this paragraph after after adding gif)
 
-<div style="position: relative; padding-bottom: 52.96875%; height: 0;"><iframe src="https://www.loom.com/embed/871d6c8a7ccd49a1ae14ff7702d5c85f" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+
+### App Walk-though
+
+
+<img src="https://www.youtube.com/watch?v=VIDEO-ID" width=200><br>
+
 `TODO://` In the User stories section below, add an `x` between the `-[ ]` like this `- [x]` for any user story you complete. (☝️ Remove this paragraph after after checking off user stories)
 
 ### Required User Stories
