@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">TextCustomizer</string>
+    <string name="editTextHint">Enter Custom Text</string>
+</resources>

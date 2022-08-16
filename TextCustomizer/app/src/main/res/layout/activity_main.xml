@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/backGroundView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#18BA72"
+    tools:context=".MainActivity">
+
+
+    <EditText
+        android:id="@+id/editText"
+        style="@android:style/Widget.EditText"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#FDFCFC"
+        android:backgroundTintMode="add"
+        android:editable="true"
+        android:focusableInTouchMode="true"
+        android:hint="@string/editTextHint"
+        android:minHeight="48dp"
+        android:textAlignment="viewStart"
+        app:layout_constraintBottom_toTopOf="@+id/textView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello from Tanya!"
+        android:textSize="40sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/buttonTextColor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/black"
+        android:backgroundTint="@color/black"
+        android:paddingHorizontal="10dp"
+        android:text="CHANGE TEXT COLOR"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <Button
+        android:id="@+id/buttonBackgroundColor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/black"
+        android:backgroundTint="@color/black"
+        android:paddingHorizontal="10dp"
+        android:text="CHANGE VIEW COLOR"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonTextColor" />
+
+    <Button
+        android:id="@+id/buttonTextString"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/black"
+        android:backgroundTint="@color/black"
+        android:paddingHorizontal="10dp"
+        android:text="CHANGE TEXT STRING"
+        app:layout_constraintBottom_toTopOf="@+id/buttonTextColor"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:layout_constraintVertical_bias="0.561" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
